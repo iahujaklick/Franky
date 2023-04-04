@@ -6,12 +6,15 @@ main .hero-container > div {
   
 main .hero-container {
   padding: 0;
+  max-width: 1024px;
+  margin: 0 auto;
 }
   
 main .hero {
   position: relative;
   padding: 32px;
-  min-height: 300px;
+  box-sizing: border-box;
+  min-height: 200px;
 }
 
 main .hero h1 {
@@ -37,3 +40,10 @@ main .hero img {
   width: 100%;
   height: 100%;
 }
+
+.section{
+  /* max-width: 1024px; */
+  margin: 0 auto;
+  
+}
+
