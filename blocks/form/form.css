@@ -3,7 +3,9 @@ main .form {
     padding: var(--spacing-m);
     box-shadow: 0 1px 6px rgb(34 34 34 / 10%);
     max-width:1024px;
-    margin:0 auto;
+    margin:50px auto;
+    padding: 30px;
+    box-sizing: border-box;
   }
   
   main .form h2 {
@@ -49,6 +51,7 @@ main .form {
     text-transform: uppercase;
     box-sizing: border-box;
     font-weight: 800;
+    font-size: 15px;
   }
   
   main .form label.required::after {
@@ -111,13 +114,14 @@ main .form {
   
   main .form .button {
     cursor: pointer;
-    background: rgb(20 115 230);
+    background: #ef8200 ;
     color: white;
-    border-radius: 16px;
+    border-radius: 5px;
     font-size: var(--type-body-s-size);
     font-weight: 300;
-    padding: 6px 16px;
+    padding: 10px 25px;
     border: none;
+    font-size: 16px;
     font-family: adobe-clean, 'Trebuchet MS', sans-serif;
   }
   
@@ -125,3 +129,28 @@ main .form {
     display: flex;
     justify-content: flex-end;
   }
+
+  #yippee{text-align: center;}
+
+  .form-text-field-wrapper, .form-select-wrapper {width:33.33%;
+    float:left;
+    padding:0 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.form-text-field-wrapper input, .form-select-wrapper select{
+    height:40px;
+    font-size: 14px;
+    border:0 !important;
+    border-bottom: solid 1px #ef8200 !important;
+    
+}
+.form-text-area-wrapper{width: 100%; display: block; clear:both;}
+.form-text-area-wrapper textarea{
+    font-size: 14px;
+    border:0 !important;
+    border-bottom: solid 1px #ef8200 !important;
+    width: 100%;
+    max-width: 100% !important;
+}
