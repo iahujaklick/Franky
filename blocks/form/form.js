@@ -58,7 +58,7 @@ function createButton(fd) {
         event.preventDefault();
         button.setAttribute('disabled', '');
         await submitForm(form);
-        const redirectTo = fd.Extra;
+        const redirectTo = fd.Success;
         window.location.href = redirectTo;
       }
     });

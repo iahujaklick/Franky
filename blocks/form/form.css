@@ -2,6 +2,8 @@ main .form {
     background-color: white;
     padding: var(--spacing-m);
     box-shadow: 0 1px 6px rgb(34 34 34 / 10%);
+    max-width:1024px;
+    margin:0 auto;
   }
   
   main .form h2 {
